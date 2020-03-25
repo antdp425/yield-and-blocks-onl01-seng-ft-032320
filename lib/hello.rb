@@ -1,4 +1,5 @@
 def hello_t (array)
+  #checks if #hello_t has a block somewhere to yield to 
   if block_given?
     i = 0
     #First time through loop = 0, then 1, then so on
